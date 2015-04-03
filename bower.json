@@ -1,0 +1,23 @@
+{
+  "name": "urlParser",
+  "version": "1.0.0",
+  "authors": [
+    "Matias A. Urbano <matias.urbano@gmail.com>"
+  ],
+  "description": "Url Parser",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.2"
+  },
+  "devDependencies": {
+    "qunit": "~1.17.1"
+  }
+}
