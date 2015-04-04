@@ -39,7 +39,7 @@ var urlParser = (function (_) {
         .object()
         .value();
     }
-    //TODO: is number 
+    
   return {
     parse: function (pattern, url) {
       return _.extend(parsePattern(pattern, url), parseVariables(url));
